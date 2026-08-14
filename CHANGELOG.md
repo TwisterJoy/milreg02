@@ -15,6 +15,7 @@
 - [ ] Showing badge circle on mini-state menu
 - [ ] List view style
 - [ ] Card view style
+- [x] 404 page translated
 
 ### Removed
 
