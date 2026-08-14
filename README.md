@@ -1,38 +1,56 @@
-# MilReg (milreg02)
+[![Русский](https://shields.io)](./README.md)
+[![English](https://shields.io)](./README.en.md)
 
-## Install the dependencies
+# MilReg Frontend (milreg02)
 
-```bash
-pnpm install
-# or: yarn/npm/bun install
-```
+Frontend системы воинского и кадрового учета (общие и образовательные организации)
 
-### Start the app in development mode (HMR, error reporting, etc.)
+## Стек технологий
 
-```bash
-quasar dev
-```
+- **Фреймворк:** Quasar
+- **Стилизация:** SCSS
+- **Сборщик:** Vite
+- **Менеджер пакетов:** npm / yarn / pnpm
 
-### Format & Lint the files
+## Требования
 
-```bash
-pnpm run lint
-# or: yarn/npm/bun run lint
-```
+Перед началом убедитесь, что у вас установлены:
 
-...or just check formatting & linting:
+- Node.js (v18.x или новее)
+- npm / yarn / pnpm
 
-```bash
-pnpm run lint:check
-# or: yarn/npm/bun run lint:check
-```
+## Установка и запуск
 
-### Build the app for production
+1. Клонируйте репозиторий:
+
+   ```bash
+   git clone https://github.com/TwisterJoy/milreg02.git
+   ```
+
+2. Перейдите в папку проекта:
+
+   ```bash
+   cd milreg02
+   ```
+
+3. Установите зависимости:
+
+   ```bash
+   npm install
+   ```
+
+   _(или `yarn install` / `pnpm install`)_
+
+4. Создайте файл `.env` на основе `.env.example` и заполните переменные окружения.
+
+5. Запустите проект в режиме разработки:
+   ```bash
+   quasar dev
+   ```
+   _(приложение откроется на `http://localhost:9000`)_
+
+## 📦 Сборка для продакшна
 
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-file).
