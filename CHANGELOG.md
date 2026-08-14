@@ -4,15 +4,23 @@
 
 ### Added
 
-- [ ] Routing from menu
+- [x] Routing from menu
 - [ ] Generating page header from backend
 - [ ] Generating page layout from backend
 - [ ] Add record form
+- [x] Notifications
 
 ### Fixed
 
 - [ ] Showing badge circle on mini-state menu
-- [ ] Table view style
+- [ ] List view style
+- [ ] Card view style
+
+### Removed
+
+- [ ] Hardcode list view pages
+- [ ] Hardcode card view pages
+- [ ] Hardcode tab view pages
 
 ## [0.1.11] - 2026-08-01
 
