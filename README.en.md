@@ -1,7 +1,7 @@
 [![Русский](https://shields.io)](./README.md)
 [![English](https://shields.io)](./README.en.md)
 
-# MilReg (milreg02)
+# MilReg Frontend (milreg02)
 
 Frontend of the military and personnel records system
 

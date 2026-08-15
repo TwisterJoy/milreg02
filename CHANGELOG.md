@@ -9,6 +9,7 @@
 - [ ] Generating page layout from backend
 - [ ] Add record form
 - [x] Notifications
+- [x] README translation
 
 ### Fixed
 

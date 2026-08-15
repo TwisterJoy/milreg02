@@ -1,1 +1,14 @@
-// app global css
+@use 'quasar/src/css/variables' as q;
+
+$color-even: white;
+$color-odd: q.$grey-2;
+
+.nested-card {
+  background-color: $color-even;
+  --card-bg: #{$color-odd};
+
+  .nested-card {
+    background-color: var(--card-bg);
+    --card-bg: #{$color-even};
+  }
+}
