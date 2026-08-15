@@ -1,5 +1,5 @@
-[![Русский](https://shields.io)](./README.md)
-[![English](https://shields.io)](./README.en.md)
+[![Русский](https://img.shields.io/badge/русский-black)](./README.md)
+[![English](https://img.shields.io/badge/english-blue)](./README.en.md)
 
 # MilReg Frontend (milreg02)
 
